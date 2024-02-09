@@ -15,7 +15,7 @@ jobs:
 
       - name: setup
         run: |
-          echo "{}" > sarif.output.json 
+          echo "{}"
 
       # Runs a set of commands using the runners shell
       - name: upload sarif
